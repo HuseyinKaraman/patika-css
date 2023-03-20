@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>My Products</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background-color: #000;
+        padding-bottom: 100px;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="drinks.html">Drinks</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a class="active" href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+
+    <section id="contact">
+      <h1 class="section-header">Contact</h1>
+
+      <div class="contact-wrapper">
+        <form id="contact-form">
+          <input
+            type="text"
+            class="form-control"
+            id="name"
+            placeholder="NAME"
+            name="name"
+          />
+
+          <input
+            type="email"
+            id="email"
+            class="form-control"
+            placeholder="EMAIL"
+            name="email"
+          />
+
+          <textarea rows="10" placeholder="MESSAGE" name="message"></textarea>
+
+          <button class="btn btn-primary send-button" id="submit" type="submit">
+            Send
+          </button>
+        </form>
+
+        <div class="direct-contact-container">
+          <ul class="contact-list">
+            <li class="list-item">
+              <i class="fa fa-map-marker fa-2x">
+                <span class="contact-text place">Turkey, Istanbul</span></i
+              >
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-phone fa-2x"
+                ><span class="contact-text phone"
+                  ><a href="tel:1-212-555-5555" title="Give me a call"
+                    >(212) 555-2368</a
+                  ></span
+                ></i
+              >
+            </li>
+
+            <li class="list-item">
+              <i class="fa fa-envelope fa-2x"
+                ><span class="contact-text gmail"
+                  ><a href="mailto:hsy.krmn@gmail.com" title="Send me an email"
+                    >hsy@gmail.com</a
+                  ></span
+                ></i
+              >
+            </li>
+          </ul>
+
+          <hr />
+          <ul class="social-media-list">
+            <li>
+              <a href="#" target="_blank" class="contact-icon">
+                <i class="fa-brands fa-github"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">
+                <i class="fa-brands fa-codepen"></i
+              ></a>
+            </li>
+            <li>
+              <a href="#" target="_blank" class="contact-icon">
+                <i class="fa-brands fa-linkedin"></i>
+              </a>
+            </li>
+          </ul>
+          <hr />
+
+          <div class="copyright">&copy; ALL OF THE RIGHTS RESERVED</div>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

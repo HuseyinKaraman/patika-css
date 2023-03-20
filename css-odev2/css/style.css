@@ -1,0 +1,35 @@
+
+.container {
+    margin: 0 auto;
+    width: 90%;
+    text-align: center;
+}
+
+.form-element {
+    background-color: #EEEEEE;
+    padding: 10px;
+}
+
+
+table {
+    width: 100%;
+}
+
+td:first-child {
+    width: 40%;
+    background-color: #7EE5DA;
+}
+td:nth-child(2) {
+    width: 20%;
+    background-color: #70CCC2;
+}
+
+td:last-child {
+    width: 40%;
+    background-color: #62B3AA;
+}
+
+
+.fs-12 {
+    font-size: 12px;
+}
